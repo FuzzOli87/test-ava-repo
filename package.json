@@ -1,0 +1,21 @@
+{
+  "name": "test-ava-repo",
+  "version": "1.0.0",
+  "description": "Test repo",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "ava _test_/test.js",
+    "build": "babel src --out-dir=dist"
+  },
+  "author": "Daniel Olivares",
+  "devDependencies": {
+    "ava": "^0.9.1",
+    "babel-cli": "^6.3.17",
+    "babel-plugin-transform-runtime": "^6.3.13",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-register": "^6.3.13"
+  },
+  "dependencies": {
+    "babel-runtime": "^6.3.19"
+  }
+}
